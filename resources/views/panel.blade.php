@@ -103,7 +103,6 @@
                         </a>
                     </li>
 
-
                 @elseif($data->rol > 1)
                     <li class="nav-item">
                         <a class="sidebar-link" href="#gestionUser">
