@@ -76,7 +76,7 @@
         <div class="sidebar-inner">
             <div class="sidebar-logo">
                 <div class="peers ai-c fxw-nw">
-                    <div class="peer peer-greed"><a class="sidebar-link td-n" href="https://colorlib.com/polygon/adminator/index.html" class="td-n">
+                    <div class="peer peer-greed"><a class="sidebar-link td-n" href="#" class="td-n">
                             <div class="peers ai-c fxw-nw">
                                 <div class="peer">
                                     <div class="logo"><img src="/css/panel/logo.png" alt=""></div>
@@ -136,99 +136,16 @@
         <div class="header navbar">
             <div class="header-container">
                 <ul class="nav-left">
-                    <li><a id="sidebar-toggle" class="sidebar-toggle" href="javascript:void(0);"><i class="ti-menu"></i></a></li>
-                    <li class="search-box"><a class="search-toggle no-pdd-right" href="javascript:void(0);"><i class="search-icon ti-search pdd-right-10"></i> <i class="search-icon-close ti-close pdd-right-10"></i></a></li>
-                    <li class="search-input"><input class="form-control" type="text" placeholder="Search..."></li>
                 </ul>
                 <ul class="nav-right">
-                    <li class="notifications dropdown"><span class="counter bgc-red">3</span> <a href="" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-bell"></i></a>
-                        <ul class="dropdown-menu">
-                            <li class="pX-20 pY-15 bdB"><i class="ti-bell pR-10"></i> <span class="fsz-sm fw-600 c-grey-900">Notifications</span></li>
-                            <li>
-                                <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
-
-                                    <li><a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                            <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt=""></div>
-                                            <div class="peer peer-greed"><span><span class="fw-500">{{$data->username}}</span> <span class="c-grey-600">liked your <span class="text-dark">post</span></span></span>
-                                                <p class="m-0"><small class="fsz-xs">5 mins ago</small></p>
-                                            </div>
-                                        </a></li>
-                                    <li><a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                            <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/2.jpg" alt=""></div>
-                                            <div class="peer peer-greed"><span><span class="fw-500">Moo Doe</span> <span class="c-grey-600">liked your <span class="text-dark">cover image</span></span></span>
-                                                <p class="m-0"><small class="fsz-xs">7 mins ago</small></p>
-                                            </div>
-                                        </a></li>
-                                    <li><a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                            <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt=""></div>
-                                            <div class="peer peer-greed"><span><span class="fw-500">Lee Doe</span> <span class="c-grey-600">commented on your <span class="text-dark">video</span></span></span>
-                                                <p class="m-0"><small class="fsz-xs">10 mins ago</small></p>
-                                            </div>
-                                        </a></li>
-                                </ul>
-                            </li>
-                            <li class="pX-20 pY-15 ta-c bdT"><span><a href="" class="c-grey-600 cH-blue fsz-sm td-n">View All Notifications <i class="ti-angle-right fsz-xs mL-10"></i></a></span></li>
-                        </ul>
-                    </li>
-                    <li class="notifications dropdown"><span class="counter bgc-blue">3</span> <a href="" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-email"></i></a>
-                        <ul class="dropdown-menu">
-                            <li class="pX-20 pY-15 bdB"><i class="ti-email pR-10"></i> <span class="fsz-sm fw-600 c-grey-900">Emails</span></li>
-                            <li>
-                                <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
-                                    <li><a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                            <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt=""></div>
-                                            <div class="peer peer-greed">
-                                                <div>
-                                                    <div class="peers jc-sb fxw-nw mB-5">
-                                                        <div class="peer">
-                                                            <p class="fw-500 mB-0">{{$data->username}}</p>
-                                                        </div>
-                                                        <div class="peer"><small class="fsz-xs">5 mins ago</small></div>
-                                                    </div><span class="c-grey-600 fsz-sm">Want to create your own customized data generator for your app...</span>
-                                                </div>
-                                            </div>
-                                        </a></li>
-                                    <li><a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                            <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/2.jpg" alt=""></div>
-                                            <div class="peer peer-greed">
-                                                <div>
-                                                    <div class="peers jc-sb fxw-nw mB-5">
-                                                        <div class="peer">
-                                                            <p class="fw-500 mB-0">Moo Doe</p>
-                                                        </div>
-                                                        <div class="peer"><small class="fsz-xs">15 mins ago</small></div>
-                                                    </div><span class="c-grey-600 fsz-sm">Want to create your own customized data generator for your app...</span>
-                                                </div>
-                                            </div>
-                                        </a></li>
-                                    <li><a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                            <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt=""></div>
-                                            <div class="peer peer-greed">
-                                                <div>
-                                                    <div class="peers jc-sb fxw-nw mB-5">
-                                                        <div class="peer">
-                                                            <p class="fw-500 mB-0">Lee Doe</p>
-                                                        </div>
-                                                        <div class="peer"><small class="fsz-xs">25 mins ago</small></div>
-                                                    </div><span class="c-grey-600 fsz-sm">Want to create your own customized data generator for your app...</span>
-                                                </div>
-                                            </div>
-                                        </a></li>
-                                </ul>
-                            </li>
-                            <li class="pX-20 pY-15 ta-c bdT"><span><a href="" class="c-grey-600 cH-blue fsz-sm td-n">View All Email <i class="fs-xs ti-angle-right mL-10"></i></a></span></li>
-                        </ul>
-                    </li>
                     <li class="dropdown"><a href="" class="dropdown-toggle no-after peers fxw-nw ai-c lh-1" data-toggle="dropdown">
                             <div class="peer mR-10"><img class="w-2r bdrs-50p" src="https://randomuser.me/api/portraits/men/10.jpg" alt=""></div>
                             <div class="peer"><span class="fsz-sm c-grey-900">{{$data->username}}</span></div>
                         </a>
                         <ul class="dropdown-menu fsz-sm">
-                            <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-settings mR-10"></i> <span>Setting</span></a></li>
-                            <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-user mR-10"></i> <span>Profile</span></a></li>
-                            <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-email mR-10"></i> <span>Messages</span></a></li>
+                            <li><a href="#gestionUser" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-user mR-10"></i> <span>Datos Personales</span></a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-power-off mR-10"></i> <span>Logout</span></a></li>
+                            <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-power-off mR-10"></i> <span>Cerrar Sesion</span></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -327,7 +244,7 @@
                                     <div class="peer peer-greed w-50p@lg+ w-100@lg- p-20">
                                         <div class="layers">
                                             <div class="layer w-100 mB-10">
-                                                <h6 class="lh-1">Gestion De usuario</h6>
+                                                <h6 class="lh-1">Gestion De Infraccion</h6>
                                             </div>
                                             <div class="layer w-100">
                                                 <div id="gestionTipoLey">
@@ -344,7 +261,13 @@
 
                                                         <div class="form-group col-md-12">
                                                             <label for="detalle">Detalle De ley</label>
-                                                            <input type="text" class="form-control" id="detalle" placeholder="Detalle" required="">
+                                                            <textarea type="text" class="form-control" id="detalle" placeholder="Detalle" required=""></textarea>
+                                                        </div>
+
+
+                                                        <div class="form-group col-md-12">
+                                                            <label for="nombre">Valor Multa</label>
+                                                            <input type="number" class="form-control" min="0" pattern="[0-9]+" id="valorMulta" placeholder="Valor Multa" required="">
                                                         </div>
 
                                                         <div class="form-group col-md-12">
@@ -355,7 +278,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="peer peer-greed w-50p@lg+ w-100@lg- p-20">
+                                    <div class="peer peer-greed w-100p@lg+ w-100@lg- p-20">
                                         <div class="layers">
                                             <div class="layer w-100 mB-10">
                                                 <h6 class="lh-1">Tipos de Infracciones</h6>
@@ -369,6 +292,7 @@
                                                                 <th class="bdwT-0">Codigo</th>
                                                                 <th class="bdwT-0">Nombre de ley</th>
                                                                 <th class="bdwT-0">detalle</th>
+                                                                <th class="bdwT-0">Valor Multa</th>
                                                                 <th class="bdwT-0">Accion</th>
                                                             </tr>
                                                             </thead>
@@ -383,7 +307,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                     @endif
                     @if($data->rol < 2)
@@ -702,6 +625,7 @@
         obj.codigo = $("#codigo").val();
         obj.nombre = $("#nombre").val();
         obj.detalle = $("#detalle").val();
+        obj.valorMulta = $("#valorMulta").val();
         if($("#idTipo").val().length > 0){
             obj.id = $("#idTipo").val();
             obj.registrar = "no";
@@ -711,6 +635,10 @@
         if(confirm("Desea Registrar?")){
             post(url+"/registrerTipoInfraccion",obj,"POST",csrf_token).then(
                 data => {
+                    if(!data){
+                        $.notify("Codigo Ya existe, por favor cree otro");
+                        return false;
+                    }
                     loaderTipoInfraccion(data);
                     $.notify("Ley de infraccion registrada","success");
                 }
@@ -727,6 +655,7 @@
             string += "<td>"+data[i].codigo+"</td>";
             string += "<td>"+data[i].nombre+"</td>";
             string += "<td>"+data[i].detalle+"</td>";
+            string += "<td>"+data[i].valorMulta+"</td>";
             string += "<td><a href='javascript:void(0);' onclick='modificarTipoInfraccion("+JSON.stringify(data[i])+")' >Modificar</a> || <a href='javascript:void(0);' onclick='eliminarTipoInfraccion("+data[i].id+")'>Eliminar</a></td>";
             string += "</tr>";
         }
@@ -738,6 +667,7 @@
         $("#nombre").val(data.nombre);
         $("#detalle").val(data.detalle);
         $("#idTipo").val(data.id);
+        $("#valorMulta").val(data.valorMulta);
     }
 
     function eliminarTipoInfraccion(id) {
@@ -756,6 +686,18 @@
             );
         }
     }
+
+
+    function expandTextarea() {
+        $("textarea").css("overflow","hidden");
+        $("textarea").css("height",0);
+        $("textarea").css("height",$("textarea").prop('scrollHeight')+"px");
+    }
+
+
+    $("textarea").keyup(function () {
+        expandTextarea();
+    })
 
 
 

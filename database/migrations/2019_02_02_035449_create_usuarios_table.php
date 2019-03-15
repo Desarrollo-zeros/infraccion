@@ -71,6 +71,7 @@ class CreateUsuariosTable extends Migration
             $table->string("codigo");
             $table->string("nombre");
             $table->string("detalle");
+            $table->integer("valorMulta");
             $table->integer("estado");
         });
 

@@ -220,15 +220,26 @@ class infraccion extends Controller
     public function registrerTipoInfraccion(Request $request, Infracciones $infracciones){
 
 
+
+
         $data = [
             "codigo" => $request->post("codigo"),
             "nombre" => $request->post("nombre"),
             "detalle" => $request->post("detalle"),
+            "valorMulta" => $request->post("valorMulta"),
             "estado" => 1
         ];
 
          if($request->post("registrar") == "si"){
-            $id = $infracciones->registerTipo($data);
+
+             $validator = Validator::make($request->all(), [
+                 'codigo' => 'required|unique:tipoDeInfracciones|max:255',
+             ]);
+             if($validator->fails()){
+                 return response()->json(false);
+             }
+             $id = $infracciones->registerTipo($data);
+
             if(isset($id)){
                 return response()->json($infracciones->getTipo());
             }

@@ -54,5 +54,4 @@ class Usurios extends Model
         return $this->fill($data)->save();
     }
 
-
 }

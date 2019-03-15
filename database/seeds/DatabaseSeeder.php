@@ -15,11 +15,12 @@ class DatabaseSeeder extends Seeder
     {
         DB::table("usuarios")->insert(
             [
-                "username"=>"zeros",
-                "password" => sha1("toor"),
-                "email" => "wowzeros2@gmail.com",
-                "nombreCompleto" => "test test test test",
-                "rol" => 3
+                "username"=>"Administrador",
+                "password" => sha1("12345"),
+                "email" => "administrador@gmail.com",
+                "nombreCompleto" => "Gerson Moreno Castillo",
+                "rol" => 3,
+                "img" => ""
             ]
         );
 
@@ -33,10 +34,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
         DB::table("tipoDeInfracciones")->insert([
-           "id" => 1,
-           "codigo" => "0001",
-           "nombre" => "ley test",
-           "detalle" => "test",
+            "id" => 1,
+            "codigo" => "0001",
+            "nombre" => "ley test",
+            "detalle" => "test",
+            "valorMulta" => 1000,
             "estado" => 1
         ]);
 
